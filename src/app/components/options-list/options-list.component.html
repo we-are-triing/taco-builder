@@ -1,0 +1,8 @@
+<layout-grid>
+  <section *ngFor="let item of items">
+    <label for="id-{{item.name}}">{{item.name}}</label>
+    <select id="id-{{item.name}}" (change)="onChange(item.name, $event)">
+      <option *ngFor="let option of item.list" [value]="option.value">{{option.label}}</option>
+    </select>
+  </section>
+</layout-grid>

@@ -1,0 +1,11 @@
+:host {
+  --columns: 1;
+  --rows: 5;
+  display: grid;
+  grid-template-columns: repeat(var(--columns, 1fr));
+  grid-template-rows: repeat(var(--rows, 1fr));
+  grid-gap: 1em;
+  padding: 1em;
+  max-width: 100%;
+  min-height: 100%;
+}

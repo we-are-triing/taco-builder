@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --box-shadow-100: 0 0 0.25em rgba(0,0,0,0.2);
+
+  --spacing-100: 0.2em;
+  --spacing-200: 1em;
+  --spacing-300: 2em;
+}
+
+
+* {
+  box-sizing: border-box;
+}

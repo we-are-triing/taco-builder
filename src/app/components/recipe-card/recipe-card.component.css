@@ -1,0 +1,22 @@
+:host {
+  box-shadow: var(--box-shadow-100);
+  display: block;
+  padding: var(--spacing-100) var(--spacing-300);
+  margin: var(--spacing-200) 0;
+  line-height: 1.56;
+  transform: rotate(var(--rotation));
+
+  background-image:
+    linear-gradient(180deg, white 3rem, #F0A4A4 3rem, #F0A4A4 calc(3rem + 2px), transparent 1px),
+    repeating-linear-gradient(180deg, transparent, transparent 1.5rem, #9df 1px, #9df calc(1.5rem + 1px));
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+:host::ng-deep p, 
+:host::ng-deep ul, 
+:host::ng-deep ol {
+  margin: var(--spacing-100) 0;
+}

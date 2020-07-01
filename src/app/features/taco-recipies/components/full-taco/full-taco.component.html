@@ -1,0 +1,3 @@
+<ng-container *ngFor="let layer of taco">
+  <recipe-card  [name]="layer.recipe.name" [layer]="layer.recipe.layer" [markup]="layer.recipe.recipe"></recipe-card>
+</ng-container>
