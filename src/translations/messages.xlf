@@ -29,6 +29,15 @@
         <note priority="1" from="description">main navigation item to go to the random taco page</note>
         <note priority="1" from="meaning">slang with excited anticipation to get a taco with taco as an emoji</note>
       </trans-unit>
+      <trans-unit id="0c41c53fdf5ec95101b1641bdbf676bfaf67800a" datatype="html">
+        <source>we ❤️ 🥪🥙!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">navigation to the we love sandwiches feature</note>
+        <note priority="1" from="meaning">we love sandwhiches with love as a heart emoji and sandwhiches as two emoji</note>
+      </trans-unit>
       <trans-unit id="ee31968b55e7bd41a079fdd096cf7657a3055c0c" datatype="html">
         <source>we ❤️ 🍝!</source>
         <context-group purpose="location">
