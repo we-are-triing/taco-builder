@@ -18,7 +18,7 @@ export class TacoApiService {
   private condimentBS = new BehaviorSubject(cleanTacoLayerName);
   private shellBS = new BehaviorSubject(cleanTacoLayerName);
   private tacoLayerRecipiesBS = new BehaviorSubject(Object.values(LayerTypes));
-  
+
   base$ = this.baseBS.asObservable().pipe(
     distinctUntilChanged(),
     switchMap(layer => this.getLayerRecipie(layer))
@@ -41,7 +41,7 @@ export class TacoApiService {
   );
 
   taco$ = combineLatest(this.base$, this.mixin$, this.seasoning$, this.condiment$, this.shell$).pipe(
-    map(([base, mixin, seasoning, condiment, shell]) => ({    
+    map(([base, mixin, seasoning, condiment, shell]) => ({
     base,
     seasoning,
     mixin,
@@ -73,7 +73,7 @@ export class TacoApiService {
   }
 
   setLayer(layer: TacoLayerName){
-    switch(layer.type){
+    switch(layer?.type){
       case LayerTypes.Base:
         this.baseBS.next(layer);
         break;
