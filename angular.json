@@ -12,7 +12,7 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
-          "it-it": "src/translations/messages.it-it.xlf"
+          "it-IT": "src/translations/messages.it-it.xlf"
         }
       },
       "architect": {
@@ -62,6 +62,34 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "it.local": {
+              "outputPath": "dist/taco-builder/browser/it/",
+              "localize": ["it-IT"]
+            },
+            "it.production": {
+              "outputPath": "dist/taco-builder/browser/it/",
+              "localize": ["it-IT"],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ]
             }
           }
         },
@@ -73,6 +101,12 @@
           "configurations": {
             "production": {
               "browserTarget": "taco-builder:build:production"
+            },
+            "it":{
+              "browserTarget": "taco-builder:build:it.local"
+            },
+            "it.production": {
+              "browserTarget": "taco-builder:build:it"
             }
           }
         },
