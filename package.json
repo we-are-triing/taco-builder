@@ -11,6 +11,7 @@
     "dev:ssr": "ng run taco-builder:serve-ssr",
     "serve:ssr": "node dist/taco-builder/server/main.js",
     "build:ssr": "ng build --prod && ng run taco-builder:server:production",
+    "build:ssr.it": "ng build --prod --configuration=it.production && ng run taco-builder:server:production",
     "prerender": "ng run taco-builder:prerender",
     "generate.translation": "npm run ng -- xi18n --output-path src/translations",
     "start.it": "ng serve --configuration=it"

@@ -2,5 +2,6 @@
   <ng-container slot="side">
     <options-list [items]="tacoLayerRecipies$ | async" (change)="onChange($event)" ></options-list>
   </ng-container>
+  <span i18n="@@test">something here for a test</span>
   <full-taco [taco]="taco$ | async"></full-taco>
 </split-view>
