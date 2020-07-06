@@ -4,7 +4,7 @@
     <body>
       <trans-unit id="5eb355362cfef97b6fd3e9f6e6e6d9ec62126527" datatype="html">
         <source>We ❤️ 🌮🌮!</source>
-        <target>Ci molto piace  🌮🌮!</target>
+        <target>Ci molt❤️ piace 🌮🌮!</target>
         <note priority="1" from="description">in the application name in the header</note>
         <note priority="1" from="meaning">we love tacos with love as a heart emoji and tacos as two taco emoji</note>
         <context-group purpose="location">
@@ -30,6 +30,46 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0c41c53fdf5ec95101b1641bdbf676bfaf67800a" datatype="html">
+        <source>we ❤️ 🥪🥙!</source>
+        <target>Ci molt❤️ piace 🥪🥙!</target>
+        <note priority="1" from="description">navigation to the we love sandwiches feature</note>
+        <note priority="1" from="meaning">we love sandwhiches with love as a heart emoji and sandwhiches as two emoji</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ee31968b55e7bd41a079fdd096cf7657a3055c0c" datatype="html">
+        <source>we ❤️ 🍝!</source>
+        <target>Ci molt❤️ piace 🍝!</target>
+        <note priority="1" from="description">navigation to the we love pasta feature</note>
+        <note priority="1" from="meaning">we love pasta with love as a heart emoji and a pasta emoji</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d8febb13d0c558c7e975022bd422d1263b2ff323" datatype="html">
+        <source>we ❤️ 🥤🥤!</source>
+        <target>Ci molt❤️ piace 🥤🥤!</target>
+        <note priority="1" from="description">navigation to the we love smoothies feature</note>
+        <note priority="1" from="meaning">we love smooties with love as a heart emoji and smoothies as two drink emoji</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="961ff773e235c7eebfc1c0d3372546ac0121976c" datatype="html">
+        <source>we ❤️ 🥗🥗!</source>
+        <target>Ci molt❤️ piace 🥗🥗!</target>
+        <note priority="1" from="description">navigation to the we love salad feature</note>
+        <note priority="1" from="meaning">we love salad with love as a heart emoji and salad as two emoji</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
     </body>
