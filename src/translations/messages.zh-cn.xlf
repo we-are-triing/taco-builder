@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-us" target-language="zh" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="5eb355362cfef97b6fd3e9f6e6e6d9ec62126527" datatype="html">
+        <source>We ❤️ 🌮🌮!</source>
+        <target>我們真的很喜歡炸🌮🌮！</target>
+        <note priority="1" from="description">in the application name in the header</note>
+        <note priority="1" from="meaning">we love tacos with love as a heart emoji and tacos as two taco emoji</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2962713662f1f4844a650793ea45c47691f0fc89" datatype="html">
+        <source>I want to build a 🌮!</source>
+        <target>我想做炸🌮！</target>
+        <note priority="1" from="description">navigation item to go to the taco builder</note>
+        <note priority="1" from="meaning">informal expression of desire to build a taco with taco as an emoji</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6fa4e92a03264ff2268e678fd44e84b4e45b7d94" datatype="html">
+        <source>Just give me a 🌮!</source>
+        <target>給我炸🌮!</target>
+        <note priority="1" from="description">main navigation item to go to the random taco page</note>
+        <note priority="1" from="meaning">slang with excited anticipation to get a taco with taco as an emoji</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="test" datatype="html">
+        <source>something here for a test</source>
+        <target>測試</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/taco-recipies/containers/taco-builder/taco-builder.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
