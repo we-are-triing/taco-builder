@@ -37,11 +37,11 @@
         <target>prova</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">15</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">16</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/taco-recipies/containers/taco-builder/taco-builder.component.html</context>
@@ -55,7 +55,17 @@
         <note priority="1" from="meaning">declaration of items that will be available soon</note>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">7</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f2269d65fc5abf441b9d548a3066099505f72a6a" datatype="html">
+        <source>the target</source>
+        <target>il bersaglio</target>
+        <note priority="1" from="description">context of the target is</note>
+        <note priority="1" from="meaning">A brief definition of the target</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
     </body>
