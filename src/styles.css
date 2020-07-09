@@ -6,6 +6,9 @@
   --spacing-300: 2em;
 }
 
+body {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+}
 
 * {
   box-sizing: border-box;
