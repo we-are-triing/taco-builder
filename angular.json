@@ -12,8 +12,8 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
-          "it-IT": "src/translations/messages.it-it.xlf",
-          "zh-CN": "src/translations/messages.zh-cn.xlf"
+          "it-IT": "src/translations/messages.it-IT.xlf",
+          "zh-CN": "src/translations/messages.zh-CN.xlf"
         }
       },
       "architect": {
