@@ -1,24 +1,20 @@
-import { Component, OnInit, Input, ElementRef } from '@angular/core';
+import { Component, Input, HostBinding } from '@angular/core';
 
 @Component({
   selector: 'recipe-card',
   templateUrl: './recipe-card.component.html',
-  styleUrls: ['./recipe-card.component.css']
+  styleUrls: ['./recipe-card.component.css'],
 })
-export class RecipeCardComponent implements OnInit {
+export class RecipeCardComponent {
   @Input() name = '';
   @Input() layer = '';
   @Input() markup = '';
-  
-  constructor(private elementRef: ElementRef) { 
-    elementRef.nativeElement.style.setProperty('--rotation', this.rotation(1));
-  }
 
-  ngOnInit() {
-  }
+  @HostBinding('style.--rotation') get rotation() {
+    return this.randomRotation(1)
+  };
 
-  rotation(deg){
+  randomRotation(deg){
     return `${-1 * deg + Math.round(Math.random() * deg * 20) / 10}deg`;
   }
-
 }

@@ -15,8 +15,8 @@ h1 {
   margin-bottom: 0;
 }
 
-:host::ng-deep p, 
-:host::ng-deep ul, 
+:host::ng-deep p,
+:host::ng-deep ul,
 :host::ng-deep ol {
   margin: var(--spacing-100) 0;
 }

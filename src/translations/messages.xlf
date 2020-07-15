@@ -38,11 +38,29 @@
         <note priority="1" from="description">context of the target is</note>
         <note priority="1" from="meaning">A brief definition of the target</note>
       </trans-unit>
+      <trans-unit id="eb24e6b03d475efe81e9bce9434ddd54138125e2" datatype="html">
+        <source>item</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">context</note>
+        <note priority="1" from="meaning">def</note>
+      </trans-unit>
+      <trans-unit id="fa265e5c4ebf14baed748880e887db1b74b7a918" datatype="html">
+        <source>something</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">context2</note>
+        <note priority="1" from="meaning">def</note>
+      </trans-unit>
       <trans-unit id="769b9ccd90f46aad6a5a67b5fbdb61d17ca17afa" datatype="html">
         <source>coming soon:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">8</context>
+          <context context-type="linenumber">10</context>
         </context-group>
         <note priority="1" from="description">in the header section below the main nav</note>
         <note priority="1" from="meaning">declaration of items that will be available soon</note>
@@ -51,11 +69,11 @@
         <source>something here for a test</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">17</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="linenumber">18</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/taco-recipies/containers/taco-builder/taco-builder.component.html</context>
